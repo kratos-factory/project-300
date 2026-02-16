@@ -6,7 +6,7 @@ import { AgentCard } from "@/components/features/AgentCard";
 import { MissionBoard } from "@/components/features/MissionBoard";
 import { AgentDetail } from "@/components/features/AgentDetail";
 import { motion, AnimatePresence } from "framer-motion";
-import { Activity, ShieldCheck, Wifi, Cpu, HardDrive, Battery, Plus } from "lucide-react";
+import { Activity, ShieldCheck, Wifi, Cpu, HardDrive, Battery, Plus, Settings } from "lucide-react";
 
 export default function MissionControl() {
   const [activeView, setActiveView] = useState("dashboard");
